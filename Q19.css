@@ -1,0 +1,76 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(rgba(342,234,655,0.52),rgba(342,54,655,0.52)),url('../girl.png') no-repeat center center fixed;
+    background-size: cover;
+    font-family: Arial, sans-serif;
+    color: white;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.form-title {
+    margin-bottom: 30px;
+    letter-spacing: 2px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 2px; 
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.form-box {
+    background: rgba(0, 0, 0, 0.6);
+    padding: 30px;
+    flex: 1;
+    text-align: left;
+    border: 1px solid #444;
+}
+
+h3 {
+    color: #00bcd4; 
+    margin-bottom: 20px;
+}
+
+input[type="text"], input[type="email"], input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0 5px 0;
+    background: #333;
+    border: 1px solid #555;
+    color: white;
+    border-radius: 4px;
+}
+
+.hint {
+    font-size: 11px;
+    color: #888;
+    margin-bottom: 10px;
+}
+
+.radio-group, .check-group {
+    margin: 15px 0;
+    font-size: 13px;
+}
+
+.btn {
+    width: 100%;
+    padding: 12px;
+    background: #b8860b;
+    border: none;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.btn:hover {
+    background: #daa520;
+}

@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Div Based Layout</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial;
+            background: #f2f2f2;
+        }
+
+        .container {
+            width: 95%;
+            margin: auto;
+        }
+
+        .header {
+            background: #09f311;
+            height: 100px;
+            text-align: center;
+            line-height: 100px;
+            font-size: 24px;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        .main {
+            display: flex;
+            margin-bottom: 10px;
+        }
+
+        .sidebar {
+            width: 20%;
+            background: #0ef716;
+            height: 300px;
+            text-align: center;
+            line-height: 300px;
+            font-weight: bold;
+            margin-right: 10px;
+        }
+
+        .content-area {
+            width: 80%;
+        }
+
+        .content1 {
+            background: #0bfc13;
+            height: 130px;
+            text-align: center;
+            line-height: 130px;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        .content-row {
+            display: flex;
+        }
+
+        .content2, .content3 {
+            background: #13f91a;
+            height: 160px;
+            width: 50%;
+            text-align: center;
+            line-height: 160px;
+            font-weight: bold;
+        }
+
+        .content2 {
+            margin-right: 10px;
+        }
+
+        .footer {
+            background: #19fb20;
+            height: 80px;
+            text-align: center;
+            line-height: 80px;
+            font-size: 20px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="container">
+
+    <div class="header">Header</div>
+
+    <div class="main">
+
+        <div class="sidebar">Side Bar</div>
+
+        <div class="content-area">
+            <div class="content1">Content 1</div>
+
+            <div class="content-row">
+                <div class="content2">Content 2</div>
+                <div class="content3">Content 3</div>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="footer">Footer</div>
+
+</div>
+
+</body>
+</html>

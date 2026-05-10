@@ -1,0 +1,26 @@
+.menu {
+background: purple;
+padding: 10px;
+}
+.menu a {
+color: white;
+padding: 10px;
+text-decoration: none;
+}
+.dropdown {
+display: inline-block;
+position: relative;
+}
+.dropdown-content {
+display: none;
+position: absolute;
+background: white;
+}
+.dropdown-content a {
+display: block;
+color: black;
+padding: 8px;
+}
+.dropdown:hover .dropdown-content {
+display: block;
+}

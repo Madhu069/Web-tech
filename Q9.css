@@ -1,0 +1,60 @@
+/* General Page Styling */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 20px;
+    color: #333;
+}
+
+.header-info {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.meta-data {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    padding-bottom: 5px;
+}
+
+/* Table Styling */
+table {
+    width: 1440px;
+    border-collapse: collapse;
+    margin-bottom: 40px;
+    margin: auto;
+}
+
+th, td {
+    border: 1px solid #444;
+    padding: 12px 8px;
+    text-align: center;
+}
+
+th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+}
+
+.day {
+    font-weight: bold;
+    background-color: #fafafa;
+}
+
+/* Vertical Break-Time styling */
+.break-cell {
+    background-color: #eeeeee;
+    font-weight: bold;
+    width: 30px;
+}
+
+/* Teacher Table Specifics */
+.teacher-table {
+    width: 60%;
+    margin: 0 auto;
+}
+
+h3 {
+    text-align: center;
+    text-decoration: underline;
+}

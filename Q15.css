@@ -1,0 +1,31 @@
+
+ul {
+    list-style: none;
+    background: yellow;
+    padding: 10px;
+    margin: 0;
+}
+
+ul li {
+    display: inline;
+    padding: 0 20px;
+    border-right: 2px solid black;
+}
+
+ul li:last-child {
+    border-right: none;
+}
+
+ul li a {
+    text-decoration: none;
+    font-weight: bold;
+    color: blue;
+}
+
+/* Home active style */
+.home a {
+    background: rgb(96, 83, 238);
+    color: white;
+    padding: 5px 10px;   /* only small area around text */
+    border-radius: 3px;
+}

@@ -1,0 +1,59 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.title {
+    color: red;
+    margin-left: 680px;
+}
+
+.box {
+    width: 600px;
+    margin: 20px auto;
+}
+
+fieldset {
+    border: 1px solid #aaa;
+    padding: 20px;
+}
+
+legend {
+    padding: 0 10px;
+    font-weight: bold;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+}
+
+input[type="text"],
+select,
+textarea {
+    width: 100%;
+    padding: 6px;
+    margin-top: 5px;
+    border: 1px solid orange;
+}
+
+textarea {
+    height: 80px;
+}
+
+.btn {
+    margin-top: 15px;
+}
+
+.register {
+    background: blue;
+    color: white;
+    padding: 8px 15px;
+    border: none;
+}
+
+.clear {
+    background: red;
+    color: white;
+    padding: 8px 15px;
+    border: none;
+}
